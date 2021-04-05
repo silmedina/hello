@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Hello = () => {
+const Hello = (props) => {
     return (
         <h1>
-            Hello world!
+            Hello {props.nombre}
         </h1>
     );
 };

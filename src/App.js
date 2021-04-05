@@ -5,7 +5,7 @@ import Hello from './components/Hello';
 function App() {
   return (
     <Fragment>
-      <Hello/>
+      <Hello nombre='my friend!'/>
     </Fragment>
   );
 }
